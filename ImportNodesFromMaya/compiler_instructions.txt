@@ -1,0 +1,16 @@
+visual studio 2015 Settings:
+
+Debugger; Remote Windows Debugger, Configuration; Debug Platform; x64.
+
+Properties:
+
+-General - Target Extension: .mll
+	- Configuration Type: dynamic Library (.dll)
+-Debugging - Remote Command: c:\Program Files\Autodesk\Maya2016\bin\maya.exe
+	- Attach: Yes
+c/c++
+-General - Additional Include Directories: c:\Program Files\Autodesk\Maya2016\include;
+
+Linker
+-General - Additional Library Directories: c:\Program Files\Autodesk\Maya2016\lib;
+
