@@ -8,9 +8,9 @@ shared memory. Conceptually, All changes of a 3D model in Maya (ex. transformati
 
 the project is divided in two executable programs; ImportNodesFromMaya and MayaImporter.
 
-    -ImportNodesFromMaya: Listens to callback from Maya, by using (using Maya CPP API) and sends that information to the other program    (renderer) in real-time. The information is sent by the circular buffer constantly pushing messages containing the information about the 3D model from Maya
+   -ImportNodesFromMaya: Listens to callback from Maya, by using (using Maya CPP API) and sends that information to the other program    (renderer) in real-time. The information is sent by the circular buffer constantly pushing messages containing the information about the 3D model from Maya
 
-    -MayaImporter: Recieves the information in runtime by the messages from the circluar buffer. The program includes a renderer (using Gameplay 3D) that renders the information  by creating a scnene and storing the information in a list of objects to be rendered. 
+   -MayaImporter: Recieves the information in runtime by the messages from the circluar buffer. The program includes a renderer (using Gameplay 3D) that renders the information  by creating a scnene and storing the information in a list of objects to be rendered. 
 
 Each message contains a header that contains different information depending on which type of object is suppose to be rendered. This header has to look the same in both of the programs for the MayaImporter to be able to recieve the correct size of information.
 
