@@ -14,5 +14,6 @@ Each message contains a header that contains different information depending on 
 
 The system supports the following in real-time: 
 
+- Creating a 3D model 
 - Transforming a 3D model, and its vertex positions
 - Moving the camera viewer
