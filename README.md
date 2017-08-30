@@ -20,4 +20,4 @@ The system supports the following in real-time:
 - Moving the camera viewer
 - Swifting different camera views 
 
-For more information about the concept of a circular buffer and the maya plugin look at my github projects: https://github.com/Fanny94/Pipeline_tool-Sharing_memory, https://github.com/Fanny94/Maya_Plugin 
+For more information about the concept of a circular buffer and the maya plugin look at my other github projects: https://github.com/Fanny94/Pipeline_tool-Sharing_memory, https://github.com/Fanny94/Maya_Plugin 
