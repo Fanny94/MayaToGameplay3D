@@ -17,7 +17,7 @@ Each message contains a header that contains different information depending on 
 The system supports the following in real-time: 
 - Creating/adding 3D models 
 - Transforming (scaling, translation, rotation) a 3D model
-- Transformation of vertices, faces, edges and extruding
+- Transformation of vertices, faces and edges
 - Moving the camera viewer
 - Swifting different camera views 
 
