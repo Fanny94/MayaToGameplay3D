@@ -15,8 +15,9 @@ the project is divided in two executable programs; ImportNodesFromMaya and MayaI
 Each message contains a header that contains different information depending on which type of object is suppose to be rendered. This header has to look the same in both of the programs for the MayaImporter to be able to recieve the correct size of information.
 
 The system supports the following in real-time: 
-- Creating a 3D model 
-- Transforming a 3D model, and its vertex positions
+- Creating/adding 3D models 
+- Transforming (scaling, translation, rotation) a 3D model
+- Transformation of vertices, faces, edges and extruding
 - Moving the camera viewer
 - Swifting different camera views 
 
