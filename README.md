@@ -10,7 +10,7 @@ the project is divided in two executable programs; ImportNodesFromMaya and MayaI
 
    -ImportNodesFromMaya: Listens to callback from Maya (using Maya CPP API) and sends that information to the other program (renderer) in real-time. The information is sent by the circular buffer, constantly pushing messages containing the values from the 3D model created in Maya.
 
-   -MayaImporter: Recieves the information in runtime by the messages from the circluar buffer. The program includes a renderer (using Gameplay 3D) that renders the information by creating a scnene and storing the information in a list of objects to be rendered. 
+   -MayaImporter: Recieves the information in runtime by the messages from the circluar buffer. The program includes a renderer (using Gameplay 3D) that renders the information by creating a scene and storing the information in a list of objects to be rendered. 
 
 Each message contains a header that contains different information depending on which type of object that is suppose to be rendered. This header has to look the same in both of the programs for the MayaImporter to be able to recieve the correct size of information.
 
